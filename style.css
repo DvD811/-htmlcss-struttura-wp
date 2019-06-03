@@ -28,6 +28,19 @@ header {
     height: 270px;
     background-image: url(img/header.jpg);
     border: 10px solid white;
+    text-align: center;
+}
+
+header>h1,
+h3 {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, sans-serif;
+    text-shadow: 5px 5px 10px #000000;
+    color: white;
 }
 
 nav {
